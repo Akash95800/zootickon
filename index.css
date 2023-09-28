@@ -11,10 +11,16 @@ body {
 
 /* Styles pour l'en-tête */
 header {
-    background-color: #0abf5c;
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #1a452e;
+    color: #ddef14;
+    padding: 10px 10;
+    
+
+}
+#barre-recherche{
+    position: absolute;
+    top: 0;
+    right: 0;
 
 }
 #rhinologo {
@@ -22,17 +28,17 @@ header {
     top: 0;
     left:0;
     width: 100px;
-
-
-
-
 }
 header h1 {
-    font-size: 2.5rem;
+    font-size: 4 rem;
+    margin-left: 3cm;
+   margin-top: 4;
+   display:block;
 }
 
 nav ul {
     list-style: none;
+    text-align: center;
 }
 
 nav ul li {
@@ -46,19 +52,19 @@ nav ul li a {
 }
 
 /* Styles pour la section de bienvenue */
-#bienvenue {
+#Welcome {
     padding: 20px;
     background-color: #fff;
     text-align: center;
 }
 
 /* Styles pour la section Animaux */
-#animaux {
+#animals {
     padding: 20px;
     background-color: #f4f4f4;
 }
 
-#animaux a {
+#animals a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #007BFF;
@@ -68,9 +74,18 @@ nav ul li a {
     border-radius: 5px;
 }
 
+.conteneur-images {
+    display: flex; /* Utilisation de flexbox pour aligner les images horizontalement */
+   
+}
+.conteneur-images img { 
+    width: 300px;
+    margin-right: 10px;
+    /* Marge entre les images (ajustez selon vos besoins) */
+}
 /* Styles pour le pied de page */
 footer {
-    background-color: #007BFF;
+    background-color: #1a452e;
     color: #fff;
     text-align: center;
     padding: 10px 0;

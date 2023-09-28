@@ -3,38 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zoo MBA - Accueil</title>
+    <title>Zoo MBA - Home</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
         <img id="rhinologo" src="logo-rhinoceros-2.jpg">
-        <h1>Zoo-MBA</h1>
+        <h1>Zoo</h1>
+        <h1> MBA</h1>
+        <form>
+            <input type="text" id="barre-recherche" name="q" placeholder="Rechercher...">
+            <input type="submit" value="Rechercher">
+        </form>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="animaux.html">Animaux</a></li>
-                <li><a href="horaires.html">Horaires</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Home page</a></li>
+                <li><a href="Animals.html">Animals</a></li>
+                <li><a href="Time.html">Time</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="http://localhost:8888">flexbox-menu</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="bienvenue">
-            <h2>Bienvenue au Zoo MBA</h2>
-            <p>Découvrez une variété d'animaux fascinants venant du monde entier.</p>
+        <section id="Welcome">
+            <h2> Welcome to the MBA Zoo</h2>
+            <p>Discover a variety of fascinating animals from around the world.</p>
         </section>
 
-        <section id="animaux">
-            <h2>Nos Animaux</h2>
-            <p>Explorez notre collection diversifiée d'animaux exotiques et indigènes.</p>
-            <a href="animaux.html">En savoir plus sur nos animaux</a>
+        <section id="animals">
+            <h2>Our animals</h2>
+            <p> Explore our diverse collection of exotic and native animals.</p>
+            <a href="animaux.html">More than 300 Animals</a>
         </section>
     </main>
+    <aside>
+        <div class="conteneur-images">
+            <img id="lion" src="/Users/akashroubert/Desktop/zootickon/pexels-pixabay-247502.jpg" alt="image1">
+            <img id="rhino" src="/Users/akashroubert/Desktop/zootickon/pexels-tessa-k-1055267.jpg" alt="image2">
+            <img id="perroquet" src="/Users/akashroubert/Desktop/zootickon/pexels-jonny-lew-1547836.jpg" alt="image3">
+            <img id="elephant" src="/Users/akashroubert/Desktop/zootickon/pexels-harvey-sapir-1054666.jpg" alt="image4">
+            <img id="jaguar" src="/Users/akashroubert/Desktop/zootickon/pexels-tina-nord-811486.jpg" alt="image5">
+        </div>
+    </aside>
+
 
     <footer>
-        <p>&copy; 2023 Zoo MBA - Tous droits réservés</p>
+        <p>&copy; MBA Zoo 2023 - All rights reserved</p>
     </footer>
 </body>
 </html>
